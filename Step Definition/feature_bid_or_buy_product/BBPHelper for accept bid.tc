@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BBPHelper for accept bid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f271e20e-ec49-4241-b55e-e596bbacfe6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74f4c204-6cd2-46af-8df3-8f7c00adeb1b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'88888'</defaultValue>
+      <description></description>
+      <id>74f4c204-6cd2-46af-8df3-8f7c00adeb1b</id>
+      <masked>false</masked>
+      <name>harga_tawar</name>
+   </variable>
+</TestCaseEntity>

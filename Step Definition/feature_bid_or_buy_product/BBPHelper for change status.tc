@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BBPHelper for change status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97f356c6-9b93-4fea-8757-b8085f5aaeb4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ed8039b-4654-470f-a6c4-fa9266bc9479</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>7ed8039b-4654-470f-a6c4-fa9266bc9479</id>
+      <masked>false</masked>
+      <name>harga_tawar</name>
+   </variable>
+</TestCaseEntity>

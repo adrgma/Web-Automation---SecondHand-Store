@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UTD002 - Change status to decline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f9e2f06-75a5-450c-b29a-65a4969d9e06</testCaseGuid>
+</TestCaseEntity>

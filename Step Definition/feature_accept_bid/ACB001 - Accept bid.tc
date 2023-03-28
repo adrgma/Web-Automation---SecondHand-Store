@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACB001 - Accept bid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1861c44f-55a5-4786-9a6d-582eb02809dd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa325f37-f765-4544-95f7-64a79d9d4517</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14100b09-7f29-415f-bca0-b78086d48c1f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'putriyulina45@gmail.com'</defaultValue>
+      <description></description>
+      <id>aa325f37-f765-4544-95f7-64a79d9d4517</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Puyulputriyulina123'</defaultValue>
+      <description></description>
+      <id>14100b09-7f29-415f-bca0-b78086d48c1f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

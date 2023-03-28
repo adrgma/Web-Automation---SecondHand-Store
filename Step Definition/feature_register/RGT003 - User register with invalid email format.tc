@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGT003 - User register with invalid email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a95e27bc-98e9-4592-a4d8-18e108c7ffc8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>582b60cf-96b5-400b-8d0a-4566669f9b66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2b18d96-a5f4-46e3-af60-3707930a6d1d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fea57cac-c954-454e-a9ed-f1ff43fbcd55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mayorey'</defaultValue>
+      <description></description>
+      <id>582b60cf-96b5-400b-8d0a-4566669f9b66</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'mayorey'</defaultValue>
+      <description></description>
+      <id>e2b18d96-a5f4-46e3-af60-3707930a6d1d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'mayorey12'</defaultValue>
+      <description></description>
+      <id>fea57cac-c954-454e-a9ed-f1ff43fbcd55</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

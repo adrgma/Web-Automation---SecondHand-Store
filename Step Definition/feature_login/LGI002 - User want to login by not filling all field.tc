@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGI002 - User want to login by not filling all field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3c3d6b-7744-447b-b0e4-f79597b703b3</testCaseGuid>
+</TestCaseEntity>

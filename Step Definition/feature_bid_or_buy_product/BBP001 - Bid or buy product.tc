@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BBP001 - Bid or buy product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e20f408e-bc66-45d5-a99a-8cfc8288de53</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f56546bc-9b10-49fe-99cc-9dea389efbe9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'99998'</defaultValue>
+      <description></description>
+      <id>f56546bc-9b10-49fe-99cc-9dea389efbe9</id>
+      <masked>false</masked>
+      <name>harga_tawar</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ADP003 - Cancel add product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5fa3fc6-4844-4d8f-9e40-7303fe244e6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>729fe8ba-1bd2-4bf3-be54-4883e146ac39</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1748d5c-4559-4d81-9bf6-81c25a5b1ea5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'d.erprion@gmail.com'</defaultValue>
+      <description></description>
+      <id>729fe8ba-1bd2-4bf3-be54-4883e146ac39</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty1234'</defaultValue>
+      <description></description>
+      <id>a1748d5c-4559-4d81-9bf6-81c25a5b1ea5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

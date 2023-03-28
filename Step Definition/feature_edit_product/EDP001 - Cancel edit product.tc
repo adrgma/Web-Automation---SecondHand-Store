@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDP001 - Cancel edit product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7c5ddf3-5176-45db-a0f9-712561ff0c46</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baf2f036-28a1-4b0e-acee-f63c5e8b2b56</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4a7816c-abf4-42cd-a7ec-1a694b31fa81</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'d.erprion@gmail.com'</defaultValue>
+      <description></description>
+      <id>baf2f036-28a1-4b0e-acee-f63c5e8b2b56</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty1234'</defaultValue>
+      <description></description>
+      <id>b4a7816c-abf4-42cd-a7ec-1a694b31fa81</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
