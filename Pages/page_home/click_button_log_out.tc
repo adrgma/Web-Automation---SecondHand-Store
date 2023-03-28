@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To click Log Out button.</description>
+   <name>click_button_log_out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e95e95e-694f-47ef-ac22-ad87fb092c58</testCaseGuid>
+</TestCaseEntity>

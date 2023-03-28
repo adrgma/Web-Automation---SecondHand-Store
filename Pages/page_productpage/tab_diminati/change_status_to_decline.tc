@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change_status_to_decline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8eb3d1a-0463-4231-a7e3-4bc3ce3e91de</testCaseGuid>
+</TestCaseEntity>

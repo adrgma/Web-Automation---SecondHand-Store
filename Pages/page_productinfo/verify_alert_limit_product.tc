@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_alert_limit_product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36faf1a2-fbb3-41f6-bef2-b2edd5ec2f24</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To click Profile button.</description>
+   <name>click_button_profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07d01e99-bb07-4670-8534-eac84220e5ad</testCaseGuid>
+</TestCaseEntity>

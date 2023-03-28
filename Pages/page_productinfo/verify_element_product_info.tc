@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to verify element that needed is visible and available</description>
+   <name>verify_element_product_info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6764794e-068c-4d1d-bfda-304812e37dd0</testCaseGuid>
+</TestCaseEntity>

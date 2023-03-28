@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to Upload photo product</description>
+   <name>upload_photo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5de3048-f8c1-4b76-bc3e-bfc71f9536e9</testCaseGuid>
+</TestCaseEntity>

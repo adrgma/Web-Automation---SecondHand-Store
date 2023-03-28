@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>input_no_handphone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13183512-9839-42bc-b6db-df78323497b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>909cdb80-4009-4b6f-9ec7-6b7e40198506</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>909cdb80-4009-4b6f-9ec7-6b7e40198506</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

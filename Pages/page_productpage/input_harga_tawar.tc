@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>input_harga_tawar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adb19180-0e22-4f60-a020-481588f0891f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>888af163-ee17-4dab-a438-14cf46c01014</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>888af163-ee17-4dab-a438-14cf46c01014</id>
+      <masked>false</masked>
+      <name>harga_tawar</name>
+   </variable>
+</TestCaseEntity>

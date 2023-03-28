@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to clear all field from input</description>
+   <name>empty_all_field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de304de9-eead-47a4-8a63-39c550ae13a0</testCaseGuid>
+</TestCaseEntity>

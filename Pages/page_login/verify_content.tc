@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify all elements is visible on User Login page.</description>
+   <name>verify_content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccb2a517-f135-400d-8614-3a56a535a3ed</testCaseGuid>
+</TestCaseEntity>

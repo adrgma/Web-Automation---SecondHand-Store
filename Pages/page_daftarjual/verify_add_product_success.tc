@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_add_product_success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d16ff5e7-c20f-49ce-af49-2a55e52107ce</testCaseGuid>
+</TestCaseEntity>

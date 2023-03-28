@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>choose_kategori_field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02d71e49-4244-466d-b894-0b7581166709</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0c62f77-a8fa-44e5-bfc6-9316ff859eb9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0c62f77-a8fa-44e5-bfc6-9316ff859eb9</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+</TestCaseEntity>
