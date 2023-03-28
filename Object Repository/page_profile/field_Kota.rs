@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_kota</name>
+   <tag></tag>
+   <elementGuidId>9f9f5bb5-f444-4c2b-b8c8-a62ebe4bfaf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='kota']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='kota']</value>
+      <webElementGuid>cda6e9fa-77b0-4ee6-b8ee-da24599f13cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

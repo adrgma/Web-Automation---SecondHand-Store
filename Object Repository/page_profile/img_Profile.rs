@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_profile</name>
+   <tag></tag>
+   <elementGuidId>ed3d27fd-8c7b-4388-8b55-10d7123810c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//avatar-image[1]//input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//avatar-image[1]//input[1]</value>
+      <webElementGuid>2cfd8166-3be2-4046-8107-25a560b145fd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

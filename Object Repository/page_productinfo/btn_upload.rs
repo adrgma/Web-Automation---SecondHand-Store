@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_upload</name>
+   <tag></tag>
+   <elementGuidId>704cb224-3e14-4c0e-9148-42962ab64059</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/form/div[5]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.bi.bi-plus-square-dotted.mt-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>c3e193b0-512b-4753-9507-b5682b854d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>4ca92cfd-bcdf-41a4-81cf-056d598475aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>79533d09-53ba-44a5-8bfc-4cbfb4964e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>76c46e04-3429-4ed6-864d-4d43d8e1d127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>2e77c263-2ed3-48d9-8aa4-8266941ed43a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-plus-square-dotted mt-2</value>
+      <webElementGuid>3476bf65-9f94-4575-963e-33e14d7a498d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>1bce3338-a486-491c-95c0-19e686642816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md mb-3&quot;]/svg[@class=&quot;bi bi-plus-square-dotted mt-2&quot;]</value>
+      <webElementGuid>6789a024-84b2-4b70-876d-abb1489076dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Produk'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b69dcd5e-5e9b-424a-8edc-e43922b56b2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>1a33391d-3eb0-4073-8540-a415280b1b7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>15c0c9d1-5c0f-4716-a339-3b0a3bcaae08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>7b7cdd21-f529-4c14-af3e-b6e6bc118037</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

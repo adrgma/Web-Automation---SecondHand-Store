@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_bid_or_buy_product,Chrome 110.0.0.0,,,2023-02-22 18:42:23,2023-02-22 18:43:22,58.383s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_bid_or_buy_product/BBP001 - Bid or buy product,Chrome 110.0.0.0,,,2023-02-22 18:42:30,2023-02-22 18:42:56,26.242s,PASSED
+"callTestCase(findTestCase(""Step Definition/feature_see_product_detail/SDP001 - See product detail for product langsung tolak""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:30,2023-02-22 18:42:49,19.018s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_saya_tertarik_dan_ingin_nego""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:49,2023-02-22 18:42:50,0.999s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/input_harga_tawar""), [""harga_tawar"":harga_tawar], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:50,2023-02-22 18:42:52,1.823s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_kirim_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:52,2023-02-22 18:42:53,0.988s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/verify_message_success_send_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:53,2023-02-22 18:42:56,3.035s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_bid_or_buy_product/BBPHelper for change status,Chrome 110.0.0.0,,,2023-02-22 18:42:56,2023-02-22 18:43:22,25.562s,PASSED
+"callTestCase(findTestCase(""Step Definition/feature_see_product_detail/SDPhelper for change status""), [""email"":""derprion@gmail.com"", ""password"":""qwerty1234""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:56,2023-02-22 18:43:14,17.388s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_saya_tertarik_dan_ingin_nego""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:14,2023-02-22 18:43:16,2.818s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/input_harga_tawar""), [""harga_tawar"":harga_tawar], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:16,2023-02-22 18:43:18,1.634s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_kirim_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:18,2023-02-22 18:43:19,0.754s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/verify_message_success_send_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:19,2023-02-22 18:43:22,2.756s,PASSED

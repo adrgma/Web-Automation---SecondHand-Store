@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_category1</name>
+   <tag></tag>
+   <elementGuidId>cc9557ad-4fe3-482c-ac54-80c0dd484a29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]//p[@class='card-text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text</value>
+      <webElementGuid>d4156663-598b-42d9-b953-6230bd040a2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3c154656-1d93-4563-9d78-69c01acb95d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>div:nth-of-type(1) .card-text</value>
+      <webElementGuid>b4b97149-824a-4c98-a8c3-203a379eb809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[1]//p[@class='card-text']</value>
+      <webElementGuid>0bcfebf0-42e3-47a7-a6be-804534cb71e8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

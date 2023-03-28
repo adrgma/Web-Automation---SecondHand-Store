@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_alamat</name>
+   <tag></tag>
+   <elementGuidId>1357f609-eb77-42b2-bea5-f7037e8f429a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='deskripsi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='deskripsi']</value>
+      <webElementGuid>14136ee9-176f-4a09-aea3-24889ecdc325</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

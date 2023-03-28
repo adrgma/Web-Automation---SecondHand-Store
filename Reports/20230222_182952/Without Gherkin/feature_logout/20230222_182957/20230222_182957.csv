@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_logout,Chrome 110.0.0.0,,,2023-02-22 18:34:10,2023-02-22 18:34:35,24.897s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account,Chrome 110.0.0.0,,,2023-02-22 18:34:15,2023-02-22 18:34:35,19.378s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:16,2023-02-22 18:34:25,9.069s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:25,2023-02-22 18:34:29,3.650s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:29,2023-02-22 18:34:30,1.120s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:30,2023-02-22 18:34:31,0.985s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:31,2023-02-22 18:34:31,0.639s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/click_button_profile""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:31,2023-02-22 18:34:34,2.507s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/click_button_log_out""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:34:34,2023-02-22 18:34:35,1.043s,PASSED

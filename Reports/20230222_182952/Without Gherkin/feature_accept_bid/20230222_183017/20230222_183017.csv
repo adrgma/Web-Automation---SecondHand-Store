@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_accept_bid,Chrome 110.0.0.0,,,2023-02-22 18:44:41,2023-02-22 18:45:56,1m - 14.399s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_bid_or_buy_product/BBPHelper for accept bid,Chrome 110.0.0.0,,,2023-02-22 18:44:47,2023-02-22 18:45:17,29.514s,PASSED
+"callTestCase(findTestCase(""Step Definition/feature_see_product_detail/SDPhelper for accept bid""), [""email"":""derprion@gmail.com"", ""password"":""qwerty1234""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:47,2023-02-22 18:45:07,19.171s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_saya_tertarik_dan_ingin_nego""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:07,2023-02-22 18:45:11,4.194s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/input_harga_tawar""), [""harga_tawar"":harga_tawar], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:11,2023-02-22 18:45:13,1.843s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_kirim_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:13,2023-02-22 18:45:14,0.953s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/verify_message_success_send_harga_tawar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:14,2023-02-22 18:45:17,2.937s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_accept_bid/ACB001 - Accept bid,Chrome 110.0.0.0,,,2023-02-22 18:45:17,2023-02-22 18:45:56,39.019s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:17,2023-02-22 18:45:30,12.982s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:30,2023-02-22 18:45:31,0.929s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:31,2023-02-22 18:45:31,0.783s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:31,2023-02-22 18:45:32,0.435s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:32,2023-02-22 18:45:36,4.016s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/click_button_diminati""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:36,2023-02-22 18:45:39,3.125s,PASSED
+"callTestCase(findTestCase(""Pages/page_accept_bid/click_card_diminati""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:39,2023-02-22 18:45:40,1.058s,PASSED
+"callTestCase(findTestCase(""Pages/page_accept_bid/click_accept""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:40,2023-02-22 18:45:42,2.130s,PASSED
+"callTestCase(findTestCase(""Pages/page_accept_bid/success_to_accept_bid""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:42,2023-02-22 18:45:49,6.393s,PASSED
+"callTestCase(findTestCase(""Pages/page_accept_bid/clear_accept_bid""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:45:49,2023-02-22 18:45:56,6.933s,PASSED

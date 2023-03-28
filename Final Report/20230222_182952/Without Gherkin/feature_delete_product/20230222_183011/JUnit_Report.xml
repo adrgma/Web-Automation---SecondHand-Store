@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="feature_delete_product" time="51.715" tests="1" failures="0" errors="0">
+   <testsuite name="feature_delete_product" tests="1" failures="0" errors="0" time="51.715" skipped="0" timestamp="2023-02-22 18:41:14" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Without Gherkin/feature_delete_product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_delete_product\\20230222_183011"/>
+         <property name="logFiles" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_delete_product\\20230222_183011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.127.126"/>
+         <property name="sessionId" value="9de5888722865c25edd9d2279f9832ce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product" time="46.102" classname="Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product" status="PASSED">
+         <system-out><![CDATA[2023-02-22 18:41:20 - [TEST_CASE][PASSED] - Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product: Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product
+
+2023-02-22 18:41:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/navigate_to_login_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/navigate_to_login_page' successfully
+
+2023-02-22 18:41:21 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/navigate_to_login_page: Test Cases/Pages/page_home/navigate_to_login_page
+
+2023-02-22 18:41:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_masuk"), 3): Object 'Object Repository/page_home/btn_masuk' is present
+
+2023-02-22 18:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_masuk' is present
+
+2023-02-22 18:41:22 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_masuk"), STOP_ON_FAILURE): Object: 'Object Repository/page_home/btn_masuk' is clicked on
+
+2023-02-22 18:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_masuk' is clicked on
+
+2023-02-22 18:41:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/navigate_to_login_page' successfully
+
+2023-02-22 18:41:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/verify_content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/verify_content' successfully
+
+2023-02-22 18:41:23 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/verify_content: Test Cases/Pages/page_login/verify_content
+
+2023-02-22 18:41:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/img_rectangle left")): Object 'Object Repository/page_login/img_rectangle left' is visible
+
+2023-02-22 18:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/img_rectangle left' is visible
+
+2023-02-22 18:41:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_secondHand")): Object 'Object Repository/page_login/text_secondHand' is visible
+
+2023-02-22 18:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_secondHand' is visible
+
+2023-02-22 18:41:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_masuk")): Object 'Object Repository/page_login/text_masuk' is visible
+
+2023-02-22 18:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_masuk' is visible
+
+2023-02-22 18:41:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_email")): Object 'Object Repository/page_login/text_email' is visible
+
+2023-02-22 18:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_email' is visible
+
+2023-02-22 18:41:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/textfield_email")): Object 'Object Repository/page_login/textfield_email' is visible
+
+2023-02-22 18:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/textfield_email' is visible
+
+2023-02-22 18:41:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_password")): Object 'Object Repository/page_login/text_password' is visible
+
+2023-02-22 18:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_password' is visible
+
+2023-02-22 18:41:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/textfield_password")): Object 'Object Repository/page_login/textfield_password' is visible
+
+2023-02-22 18:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/textfield_password' is visible
+
+2023-02-22 18:41:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/btn_masuk")): Object 'Object Repository/page_login/btn_masuk' is visible
+
+2023-02-22 18:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/btn_masuk' is visible
+
+2023-02-22 18:41:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_belum punya akun")): Object 'Object Repository/page_login/text_belum punya akun' is visible
+
+2023-02-22 18:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_belum punya akun' is visible
+
+2023-02-22 18:41:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/linktext_daftar di sini")): Object 'Object Repository/page_login/linktext_daftar di sini' is visible
+
+2023-02-22 18:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/linktext_daftar di sini' is visible
+
+2023-02-22 18:41:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/verify_content' successfully
+
+2023-02-22 18:41:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/input_email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/input_email' successfully
+
+2023-02-22 18:41:27 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/input_email: Test Cases/Pages/page_login/input_email
+
+2023-02-22 18:41:27 - [TEST_STEP][PASSED] - clearText(findTestObject("page_login/textfield_email")): Text of object 'Object Repository/page_login/textfield_email' is cleared
+
+2023-02-22 18:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/page_login/textfield_email' is cleared
+
+2023-02-22 18:41:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("page_login/textfield_email"), email): Keys 'd.erprion@gmail.com' sent to object: 'Object Repository/page_login/textfield_email'
+
+2023-02-22 18:41:28 - [MESSAGE][PASSED] - Keys 'd.erprion@gmail.com' sent to object: 'Object Repository/page_login/textfield_email'
+
+2023-02-22 18:41:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/input_email' successfully
+
+2023-02-22 18:41:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/input_password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/input_password' successfully
+
+2023-02-22 18:41:28 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/input_password: Test Cases/Pages/page_login/input_password
+
+2023-02-22 18:41:28 - [TEST_STEP][PASSED] - clearText(findTestObject("page_login/textfield_password")): Text of object 'Object Repository/page_login/textfield_password' is cleared
+
+2023-02-22 18:41:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/page_login/textfield_password' is cleared
+
+2023-02-22 18:41:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("page_login/textfield_password"), password): Keys 'qwerty1234' sent to object: 'Object Repository/page_login/textfield_password'
+
+2023-02-22 18:41:29 - [MESSAGE][PASSED] - Keys 'qwerty1234' sent to object: 'Object Repository/page_login/textfield_password'
+
+2023-02-22 18:41:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/input_password' successfully
+
+2023-02-22 18:41:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/click_masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/click_masuk' successfully
+
+2023-02-22 18:41:29 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/click_masuk: Test Cases/Pages/page_login/click_masuk
+
+2023-02-22 18:41:29 - [TEST_STEP][PASSED] - click(findTestObject("page_login/btn_masuk")): Object: 'Object Repository/page_login/btn_masuk' is clicked on
+
+2023-02-22 18:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/btn_masuk' is clicked on
+
+2023-02-22 18:41:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/click_masuk' successfully
+
+2023-02-22 18:41:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/navigate_to_daftarjual_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:29 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/navigate_to_daftarjual_page: Test Cases/Pages/page_home/navigate_to_daftarjual_page
+
+2023-02-22 18:41:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-22 18:41:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-22 18:41:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_daftar_jual_page"), 3): Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:33 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_daftar_jual_page")): Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_daftarjual/navigate_to_delete_product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_delete_product' successfully
+
+2023-02-22 18:41:33 - [TEST_CASE][PASSED] - Test Cases/Pages/page_daftarjual/navigate_to_delete_product: Test Cases/Pages/page_daftarjual/navigate_to_delete_product
+
+2023-02-22 18:41:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_daftarjual/div_hapus_produk"), 2): Object 'Object Repository/page_daftarjual/div_hapus_produk' is present
+
+2023-02-22 18:41:36 - [MESSAGE][PASSED] - Object 'Object Repository/page_daftarjual/div_hapus_produk' is present
+
+2023-02-22 18:41:36 - [TEST_STEP][PASSED] - click(findTestObject("page_daftarjual/div_hapus_produk"), STOP_ON_FAILURE): Object: 'Object Repository/page_daftarjual/div_hapus_produk' is clicked on
+
+2023-02-22 18:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_daftarjual/div_hapus_produk' is clicked on
+
+2023-02-22 18:41:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_delete_product' successfully
+
+2023-02-22 18:41:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_productpage/click_hapus_button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:36 - [TEST_CASE][PASSED] - Test Cases/Pages/page_productpage/click_hapus_button: Test Cases/Pages/page_productpage/click_hapus_button
+
+2023-02-22 18:41:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_productpage/btn_hapus"), 2): Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:38 - [TEST_STEP][PASSED] - click(findTestObject("page_productpage/btn_hapus"), STOP_ON_FAILURE): Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/navigate_to_daftarjual_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:38 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/navigate_to_daftarjual_page: Test Cases/Pages/page_home/navigate_to_daftarjual_page
+
+2023-02-22 18:41:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-22 18:41:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-22 18:41:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_daftar_jual_page"), 3): Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:41 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:41 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_daftar_jual_page")): Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_daftarjual/navigate_to_delete_product_homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_delete_product_homepage' successfully
+
+2023-02-22 18:41:42 - [TEST_CASE][PASSED] - Test Cases/Pages/page_daftarjual/navigate_to_delete_product_homepage: Test Cases/Pages/page_daftarjual/navigate_to_delete_product_homepage
+
+2023-02-22 18:41:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_daftarjual/div_homepage_product"), 2): Object 'Object Repository/page_daftarjual/div_homepage_product' is present
+
+2023-02-22 18:41:44 - [MESSAGE][PASSED] - Object 'Object Repository/page_daftarjual/div_homepage_product' is present
+
+2023-02-22 18:41:44 - [TEST_STEP][PASSED] - click(findTestObject("page_daftarjual/div_homepage_product"), STOP_ON_FAILURE): Object: 'Object Repository/page_daftarjual/div_homepage_product' is clicked on
+
+2023-02-22 18:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/page_daftarjual/div_homepage_product' is clicked on
+
+2023-02-22 18:41:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_delete_product_homepage' successfully
+
+2023-02-22 18:41:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_productpage/click_hapus_button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:45 - [TEST_CASE][PASSED] - Test Cases/Pages/page_productpage/click_hapus_button: Test Cases/Pages/page_productpage/click_hapus_button
+
+2023-02-22 18:41:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_productpage/btn_hapus"), 2): Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:46 - [TEST_STEP][PASSED] - click(findTestObject("page_productpage/btn_hapus"), STOP_ON_FAILURE): Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/navigate_to_daftarjual_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:46 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/navigate_to_daftarjual_page: Test Cases/Pages/page_home/navigate_to_daftarjual_page
+
+2023-02-22 18:41:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-22 18:41:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-22 18:41:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_daftar_jual_page"), 3): Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:50 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_daftar_jual_page")): Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_daftarjual/navigate_to_edit_product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_edit_product' successfully
+
+2023-02-22 18:41:50 - [TEST_CASE][PASSED] - Test Cases/Pages/page_daftarjual/navigate_to_edit_product: Test Cases/Pages/page_daftarjual/navigate_to_edit_product
+
+2023-02-22 18:41:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_daftarjual/div_edit_produk"), 3): Object 'Object Repository/page_daftarjual/div_edit_produk' is present
+
+2023-02-22 18:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/page_daftarjual/div_edit_produk' is present
+
+2023-02-22 18:41:52 - [TEST_STEP][PASSED] - click(findTestObject("page_daftarjual/div_edit_produk"), STOP_ON_FAILURE): Object: 'Object Repository/page_daftarjual/div_edit_produk' is clicked on
+
+2023-02-22 18:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_daftarjual/div_edit_produk' is clicked on
+
+2023-02-22 18:41:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_edit_product' successfully
+
+2023-02-22 18:41:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_productpage/click_hapus_button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:53 - [TEST_CASE][PASSED] - Test Cases/Pages/page_productpage/click_hapus_button: Test Cases/Pages/page_productpage/click_hapus_button
+
+2023-02-22 18:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_productpage/btn_hapus"), 2): Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:41:54 - [TEST_STEP][PASSED] - click(findTestObject("page_productpage/btn_hapus"), STOP_ON_FAILURE): Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:41:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:41:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/navigate_to_daftarjual_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:55 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/navigate_to_daftarjual_page: Test Cases/Pages/page_home/navigate_to_daftarjual_page
+
+2023-02-22 18:41:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-22 18:41:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-22 18:41:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_daftar_jual_page"), 3): Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_daftar_jual_page' is present
+
+2023-02-22 18:41:58 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_daftar_jual_page")): Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_daftar_jual_page' is clicked on
+
+2023-02-22 18:41:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/navigate_to_daftarjual_page' successfully
+
+2023-02-22 18:41:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_daftarjual/navigate_to_edit_product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_edit_product' successfully
+
+2023-02-22 18:41:58 - [TEST_CASE][PASSED] - Test Cases/Pages/page_daftarjual/navigate_to_edit_product: Test Cases/Pages/page_daftarjual/navigate_to_edit_product
+
+2023-02-22 18:41:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_daftarjual/div_edit_produk"), 3): Object 'Object Repository/page_daftarjual/div_edit_produk' is present
+
+2023-02-22 18:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/page_daftarjual/div_edit_produk' is present
+
+2023-02-22 18:42:00 - [TEST_STEP][PASSED] - click(findTestObject("page_daftarjual/div_edit_produk"), STOP_ON_FAILURE): Object: 'Object Repository/page_daftarjual/div_edit_produk' is clicked on
+
+2023-02-22 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/page_daftarjual/div_edit_produk' is clicked on
+
+2023-02-22 18:42:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_daftarjual/navigate_to_edit_product' successfully
+
+2023-02-22 18:42:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_productpage/click_hapus_button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:42:01 - [TEST_CASE][PASSED] - Test Cases/Pages/page_productpage/click_hapus_button: Test Cases/Pages/page_productpage/click_hapus_button
+
+2023-02-22 18:42:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_productpage/btn_hapus"), 2): Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:42:02 - [MESSAGE][PASSED] - Object 'Object Repository/page_productpage/btn_hapus' is present
+
+2023-02-22 18:42:02 - [TEST_STEP][PASSED] - click(findTestObject("page_productpage/btn_hapus"), STOP_ON_FAILURE): Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/page_productpage/btn_hapus' is clicked on
+
+2023-02-22 18:42:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_productpage/click_hapus_button' successfully
+
+2023-02-22 18:42:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_daftarjual/verify_delete_product_success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_daftarjual/verify_delete_product_success' successfully
+
+2023-02-22 18:42:03 - [TEST_CASE][PASSED] - Test Cases/Pages/page_daftarjual/verify_delete_product_success: Test Cases/Pages/page_daftarjual/verify_delete_product_success
+
+2023-02-22 18:42:03 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("page_daftarjual/div_hapus_produk"), 2): Web element with id: 'Object Repository/page_daftarjual/div_hapus_produk' located by 'By.xpath: //div[@class = 'content card' and (contains(text(), 'edit produk berhasil') or contains(., 'edit produk berhasil'))]' is not present after '2' second(s)
+
+2023-02-22 18:42:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/page_daftarjual/div_hapus_produk' located by 'By.xpath: //div[@class = 'content card' and (contains(text(), 'edit produk berhasil') or contains(., 'edit produk berhasil'))]' is not present after '2' second(s)
+
+2023-02-22 18:42:06 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("page_daftarjual/div_homepage_product"), 2): Web element with id: 'Object Repository/page_daftarjual/div_homepage_product' located by 'By.xpath: //p[@class = 'card-title' and (text() = 'HomepageProduct' or . = 'HomepageProduct')]' is not present after '2' second(s)
+
+2023-02-22 18:42:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/page_daftarjual/div_homepage_product' located by 'By.xpath: //p[@class = 'card-title' and (text() = 'HomepageProduct' or . = 'HomepageProduct')]' is not present after '2' second(s)
+
+2023-02-22 18:42:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_daftarjual/verify_delete_product_success' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-22 18:41:14 - [TEST_SUITE][PASSED] - feature_delete_product: Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

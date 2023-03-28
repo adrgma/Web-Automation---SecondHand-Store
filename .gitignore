@@ -1,0 +1,12 @@
+*.env
+/bin/
+/settings/
+/console properties/
+/Libs/
+.classpath
+.settings
+.project
+.cache
+*.gradle
+*.log
+/web-automation-testing-kelompok-1.git.prj

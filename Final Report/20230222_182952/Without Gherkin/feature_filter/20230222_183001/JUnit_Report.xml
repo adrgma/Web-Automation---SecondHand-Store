@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="feature_filter" time="24.846" tests="1" failures="0" errors="0">
+   <testsuite name="feature_filter" tests="1" failures="0" errors="0" time="24.846" skipped="0" timestamp="2023-02-22 18:35:43" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Without Gherkin/feature_filter">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_filter\\20230222_183001"/>
+         <property name="logFiles" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_filter\\20230222_183001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.127.126"/>
+         <property name="sessionId" value="01f9a8ea5552d33f3b76dabaea888d40"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category" time="19.108" classname="Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category" status="PASSED">
+         <system-out><![CDATA[2023-02-22 18:35:48 - [TEST_CASE][PASSED] - Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category: Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category
+
+2023-02-22 18:35:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_filter/click_category_hoby"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_filter/click_category_hoby' successfully
+
+2023-02-22 18:35:49 - [TEST_CASE][PASSED] - Test Cases/Pages/page_filter/click_category_hoby: Test Cases/Pages/page_filter/click_category_hoby
+
+2023-02-22 18:35:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_filter/btn_filter_hoby"), 3): Object 'Object Repository/page_filter/btn_filter_hoby' is present
+
+2023-02-22 18:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/page_filter/btn_filter_hoby' is present
+
+2023-02-22 18:35:51 - [TEST_STEP][PASSED] - click(findTestObject("page_filter/btn_filter_hoby")): Object: 'Object Repository/page_filter/btn_filter_hoby' is clicked on
+
+2023-02-22 18:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/page_filter/btn_filter_hoby' is clicked on
+
+2023-02-22 18:35:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_filter/click_category_hoby' successfully
+
+2023-02-22 18:35:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_filter/scroll_list"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_filter/scroll_list' successfully
+
+2023-02-22 18:35:52 - [TEST_CASE][PASSED] - Test Cases/Pages/page_filter/scroll_list: Test Cases/Pages/page_filter/scroll_list
+
+2023-02-22 18:35:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_filter/card_list"), 3): Object 'Object Repository/page_filter/card_list' is not present after 3 second(s)
+
+2023-02-22 18:35:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: .products > div:nth-of-type'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-22 18:35:56 - [MESSAGE][WARNING] - Object 'Object Repository/page_filter/card_list' is not present after 3 second(s)
+
+2023-02-22 18:35:56 - [TEST_STEP][PASSED] - scrollToPosition(0, 300): Browser is scrolled to position x = 0, y = 300
+
+2023-02-22 18:35:57 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 300
+
+2023-02-22 18:35:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_filter/scroll_list' successfully
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_filter/verify_category_hoby"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_filter/verify_category_hoby' successfully
+
+2023-02-22 18:35:57 - [TEST_CASE][PASSED] - Test Cases/Pages/page_filter/verify_category_hoby: Test Cases/Pages/page_filter/verify_category_hoby
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_filter/text_category1"), 5): Object 'Object Repository/page_filter/text_category1' is present
+
+2023-02-22 18:35:57 - [MESSAGE][PASSED] - Object 'Object Repository/page_filter/text_category1' is present
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - textCategory = driver.findElements(By.className("card-text")): null
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - for (def listTextCategory : textCategory): null
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:57 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:58 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Hoby"): null
+
+2023-02-22 18:35:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_filter/verify_category_hoby' successfully
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_filter/click_category_kendaraan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_filter/click_category_kendaraan' successfully
+
+2023-02-22 18:35:59 - [TEST_CASE][PASSED] - Test Cases/Pages/page_filter/click_category_kendaraan: Test Cases/Pages/page_filter/click_category_kendaraan
+
+2023-02-22 18:35:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_filter/btn_filter_kendaraan"), 3): Object 'Object Repository/page_filter/btn_filter_kendaraan' is present
+
+2023-02-22 18:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/page_filter/btn_filter_kendaraan' is present
+
+2023-02-22 18:36:00 - [TEST_STEP][PASSED] - click(findTestObject("page_filter/btn_filter_kendaraan")): Object: 'Object Repository/page_filter/btn_filter_kendaraan' is clicked on
+
+2023-02-22 18:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/page_filter/btn_filter_kendaraan' is clicked on
+
+2023-02-22 18:36:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_filter/click_category_kendaraan' successfully
+
+2023-02-22 18:36:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_filter/verify_category_kendaraan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_filter/verify_category_kendaraan' successfully
+
+2023-02-22 18:36:00 - [TEST_CASE][PASSED] - Test Cases/Pages/page_filter/verify_category_kendaraan: Test Cases/Pages/page_filter/verify_category_kendaraan
+
+2023-02-22 18:36:00 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-02-22 18:36:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_filter/text_category1"), 5): Object 'Object Repository/page_filter/text_category1' is present
+
+2023-02-22 18:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/page_filter/text_category1' is present
+
+2023-02-22 18:36:01 - [TEST_STEP][PASSED] - textCategory = driver.findElements(By.className("card-text")): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - for (def listTextCategory : textCategory): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - if (listTextCategory.getText() != "Kendaraan"): null
+
+2023-02-22 18:36:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-02-22 18:36:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-22 18:36:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_filter/verify_category_kendaraan' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-22 18:35:43 - [TEST_SUITE][PASSED] - feature_filter: Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

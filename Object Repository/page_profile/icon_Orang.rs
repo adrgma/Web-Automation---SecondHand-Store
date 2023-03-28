@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_orang</name>
+   <tag></tag>
+   <elementGuidId>bca17f74-00cc-45bc-9f6a-8ff1da1b42a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='user']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='user']</value>
+      <webElementGuid>9d31ef0c-b320-458b-9e77-d53625864ea6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

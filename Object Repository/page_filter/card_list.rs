@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_list</name>
+   <tag></tag>
+   <elementGuidId>86fd4ca8-b7d4-42e4-8d70-044ac37c57d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.products > div:nth-of-type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card</value>
+      <webElementGuid>f31d07b0-c78f-4351-b312-76468c14b317</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>957c9813-43a2-4579-9130-eda80d3a2d34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.products > div:nth-of-type</value>
+      <webElementGuid>aaa0dbd9-705a-4e79-bac9-610d4e0e35f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='products']/div</value>
+      <webElementGuid>79d006dc-437d-4531-afc5-97293ebb80a5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

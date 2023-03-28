@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_register,Chrome 110.0.0.0,,,2023-02-22 18:30:27,2023-02-22 18:32:00,1m - 32.710s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_register/RGT001 - User register with new email address and password,Chrome 110.0.0.0,,,2023-02-22 18:30:33,2023-02-22 18:30:57,23.994s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/navigate_to_register_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:33,2023-02-22 18:30:43,10.025s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:43,2023-02-22 18:30:47,4.359s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_nama""), [""nama"":name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:47,2023-02-22 18:30:49,1.157s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:49,2023-02-22 18:30:50,1.150s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:50,2023-02-22 18:30:51,1.121s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/click_daftar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:51,2023-02-22 18:30:52,0.660s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:52,2023-02-22 18:30:57,5.031s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_register/RGT002 - User register by not filling all field,Chrome 110.0.0.0,,,2023-02-22 18:30:57,2023-02-22 18:31:15,18.243s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/navigate_to_register_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:30:57,2023-02-22 18:31:06,8.931s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:06,2023-02-22 18:31:10,4.186s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/click_daftar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:10,2023-02-22 18:31:10,0.438s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:10,2023-02-22 18:31:15,4.455s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_register/RGT003 - User register with invalid email format,Chrome 110.0.0.0,,,2023-02-22 18:31:15,2023-02-22 18:31:36,20.916s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/navigate_to_register_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:15,2023-02-22 18:31:25,9.525s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:25,2023-02-22 18:31:29,4.179s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_nama""), [""nama"":name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:29,2023-02-22 18:31:30,0.763s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:30,2023-02-22 18:31:30,0.779s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:30,2023-02-22 18:31:31,0.784s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/click_daftar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:31,2023-02-22 18:31:32,0.497s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:32,2023-02-22 18:31:36,4.114s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_register/RGT004 - User register with used credential,Chrome 110.0.0.0,,,2023-02-22 18:31:36,2023-02-22 18:32:00,23.932s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/navigate_to_register_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:36,2023-02-22 18:31:48,11.740s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:48,2023-02-22 18:31:52,4.200s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_nama""), [""nama"":name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:52,2023-02-22 18:31:53,0.764s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:53,2023-02-22 18:31:53,0.756s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:53,2023-02-22 18:31:54,0.791s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/click_daftar""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:54,2023-02-22 18:31:55,0.401s,PASSED
+"callTestCase(findTestCase(""Pages/page_register/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:31:55,2023-02-22 18:32:00,4.995s,PASSED

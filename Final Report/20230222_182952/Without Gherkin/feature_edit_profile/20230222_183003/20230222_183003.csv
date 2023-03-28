@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_edit_profile,Chrome 110.0.0.0,,,2023-02-22 18:36:23,2023-02-22 18:37:03,39.549s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_edit_profile/EPR001 - Edit profile,Chrome 110.0.0.0,,,2023-02-22 18:36:29,2023-02-22 18:37:03,33.880s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:30,2023-02-22 18:36:40,10.003s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:40,2023-02-22 18:36:43,3.853s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:43,2023-02-22 18:36:45,1.086s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:45,2023-02-22 18:36:46,1.029s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:46,2023-02-22 18:36:46,0.675s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/click_icon_orang""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:46,2023-02-22 18:36:50,3.681s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/click_btn_profile""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:50,2023-02-22 18:36:51,0.984s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/input_nama""), [""nama"":nama], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:51,2023-02-22 18:36:53,1.640s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/input_kota""), [""kota"":kota], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:53,2023-02-22 18:36:55,2.172s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/input_alamat""), [""alamat"":alamat], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:55,2023-02-22 18:36:56,1.373s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/input_no_handphone""), [""nohp"":nohp], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:56,2023-02-22 18:36:57,1.341s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/click_button_submit""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:57,2023-02-22 18:36:58,0.989s,PASSED
+"callTestCase(findTestCase(""Pages/page_profile/notif_success_update""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:58,2023-02-22 18:37:03,4.601s,PASSED

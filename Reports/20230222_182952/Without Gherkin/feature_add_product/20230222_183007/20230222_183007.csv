@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_add_product,Chrome 110.0.0.0,,,2023-02-22 18:38:20,2023-02-22 18:39:46,1m - 26.772s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_add_product/ADP001 - Add product from homepage,Chrome 110.0.0.0,,,2023-02-22 18:38:25,2023-02-22 18:38:51,25.402s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:26,2023-02-22 18:38:29,3.000s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:29,2023-02-22 18:38:32,3.697s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:32,2023-02-22 18:38:33,1.124s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:33,2023-02-22 18:38:34,1.042s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:34,2023-02-22 18:38:35,0.665s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/click_add_product_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:35,2023-02-22 18:38:38,2.559s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_nama_produk_field""), [""product_name"":product_name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:38,2023-02-22 18:38:39,1.216s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_harga_produk_field""), [""product_price"":product_price], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:39,2023-02-22 18:38:40,1.069s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_deskripsi_field""), [""product_description"":product_description], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:40,2023-02-22 18:38:41,1.127s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/choose_kategori_field""), [""category"":category], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:41,2023-02-22 18:38:42,1.379s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/click_terbitkan_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:42,2023-02-22 18:38:43,0.677s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:43,2023-02-22 18:38:48,4.470s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/verify_add_product_from_homepage_success""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:48,2023-02-22 18:38:51,2.949s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_add_product/ADP002 - Add product from daftarjual page,Chrome 110.0.0.0,,,2023-02-22 18:38:51,2023-02-22 18:39:06,15.362s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:51,2023-02-22 18:38:55,3.740s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/click_tambah_produk_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:55,2023-02-22 18:38:56,1.029s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_nama_produk_field""), [""product_name"":product_name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:56,2023-02-22 18:38:58,1.931s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_harga_produk_field""), [""product_price"":product_price], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:58,2023-02-22 18:38:58,0.798s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_deskripsi_field""), [""product_description"":product_description], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:58,2023-02-22 18:38:59,0.821s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/choose_kategori_field""), [""category"":category], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:38:59,2023-02-22 18:39:00,1.234s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/click_terbitkan_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:00,2023-02-22 18:39:01,0.433s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:01,2023-02-22 18:39:05,3.796s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/verify_add_product_success""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:05,2023-02-22 18:39:06,1.319s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_add_product/ADP003 - Cancel add product,Chrome 110.0.0.0,,,2023-02-22 18:39:06,2023-02-22 18:39:14,8.108s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/click_tambah_produk_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:06,2023-02-22 18:39:07,0.739s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/cancel_add_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:07,2023-02-22 18:39:13,6.096s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/verify_cancel_add_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:13,2023-02-22 18:39:14,1.002s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_add_product/ADP004 - Add Product more than limit,Chrome 110.0.0.0,,,2023-02-22 18:39:14,2023-02-22 18:39:46,32.363s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:14,2023-02-22 18:39:18,3.765s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/click_tambah_produk_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:18,2023-02-22 18:39:19,0.840s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_nama_produk_field""), [""product_name"":product_name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:19,2023-02-22 18:39:21,2.161s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_harga_produk_field""), [""product_price"":product_price], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:21,2023-02-22 18:39:22,0.897s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_deskripsi_field""), [""product_description"":product_description], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:22,2023-02-22 18:39:23,0.792s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/choose_kategori_field""), [""category"":category], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:23,2023-02-22 18:39:24,1.208s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/click_terbitkan_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:24,2023-02-22 18:39:24,0.410s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-22 18:39:24,2023-02-22 18:39:27,3.008s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/click_tambah_produk_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:27,2023-02-22 18:39:29,1.189s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_nama_produk_field""), [""product_name"":product_name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:29,2023-02-22 18:39:30,1.580s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_harga_produk_field""), [""product_price"":product_price], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:30,2023-02-22 18:39:31,0.775s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_deskripsi_field""), [""product_description"":product_description], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:31,2023-02-22 18:39:32,0.835s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/choose_kategori_field""), [""category"":category], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:32,2023-02-22 18:39:33,1.289s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/click_terbitkan_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:33,2023-02-22 18:39:33,0.435s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-22 18:39:33,2023-02-22 18:39:36,3.012s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/click_tambah_produk_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:36,2023-02-22 18:39:38,1.155s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_nama_produk_field""), [""product_name"":product_name], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:38,2023-02-22 18:39:39,1.606s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_harga_produk_field""), [""product_price"":product_price], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:39,2023-02-22 18:39:40,0.815s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/input_deskripsi_field""), [""product_description"":product_description], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:40,2023-02-22 18:39:41,0.908s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/choose_kategori_field""), [""category"":category], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:41,2023-02-22 18:39:42,1.303s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/click_terbitkan_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:42,2023-02-22 18:39:43,0.479s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-22 18:39:43,2023-02-22 18:39:46,3.013s,PASSED
+"callTestCase(findTestCase(""Pages/page_productinfo/verify_alert_limit_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:39:46,2023-02-22 18:39:46,0.634s,PASSED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_decline_transaction,Chrome 110.0.0.0,,,2023-02-22 18:43:39,2023-02-22 18:44:25,45.360s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_decline_transaction/UTD001 - Decline bid,Chrome 110.0.0.0,,,2023-02-22 18:43:45,2023-02-22 18:44:08,23.009s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:46,2023-02-22 18:43:48,2.747s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:48,2023-02-22 18:43:52,3.669s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:52,2023-02-22 18:43:53,1.071s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:53,2023-02-22 18:43:54,1.019s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:54,2023-02-22 18:43:55,0.614s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:55,2023-02-22 18:43:59,4.101s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/navigate_to_produk_langsung_tolak""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:43:59,2023-02-22 18:44:04,4.899s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/click_tolak_transaksi_langsung""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:04,2023-02-22 18:44:06,2.545s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/verify_bid_decline""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:06,2023-02-22 18:44:08,1.929s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_decline_transaction/UTD002 - Change status to decline,Chrome 110.0.0.0,,,2023-02-22 18:44:08,2023-02-22 18:44:25,16.366s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:08,2023-02-22 18:44:12,3.873s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/navigate_to_produk_change_status_to_decline""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:12,2023-02-22 18:44:16,3.725s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/click_terima_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:16,2023-02-22 18:44:18,1.565s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/tab_diminati/change_status_to_decline""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:44:18,2023-02-22 18:44:25,6.992s,PASSED

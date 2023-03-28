@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_seller_list,Chrome 110.0.0.0,,,2023-02-22 18:37:22,2023-02-22 18:37:54,32.593s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_seller_list/SLL001 - All product,Chrome 110.0.0.0,,,2023-02-22 18:37:27,2023-02-22 18:37:46,18.193s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:28,2023-02-22 18:37:36,8.482s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":""putriyulina45@gmail.com""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:36,2023-02-22 18:37:38,1.062s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":""Puyulputriyulina123""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:38,2023-02-22 18:37:39,1.043s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:39,2023-02-22 18:37:39,0.684s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:39,2023-02-22 18:37:43,4.041s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/verify_all_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:43,2023-02-22 18:37:46,2.404s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_seller_list/SLL002 - List diminati,Chrome 110.0.0.0,,,2023-02-22 18:37:46,2023-02-22 18:37:48,1.886s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/click_button_diminati""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:46,2023-02-22 18:37:47,0.989s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/verify_list_diminati""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:47,2023-02-22 18:37:48,0.663s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_seller_list/SLL003 - List terjual,Chrome 110.0.0.0,,,2023-02-22 18:37:48,2023-02-22 18:37:54,6.899s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/click_button_terjual""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:48,2023-02-22 18:37:49,0.997s,PASSED
+"callTestCase(findTestCase(""Pages/page_sellerlist/verify_list_terjual""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:37:49,2023-02-22 18:37:54,5.682s,PASSED

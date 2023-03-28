@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_filter,Chrome 110.0.0.0,,,2023-02-22 18:35:43,2023-02-22 18:36:07,24.846s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_filter/FLT001- User want to view product list by category,Chrome 110.0.0.0,,,2023-02-22 18:35:48,2023-02-22 18:36:07,19.108s,PASSED
+"callTestCase(findTestCase(""Pages/page_filter/click_category_hoby""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:35:49,2023-02-22 18:35:52,3.421s,PASSED
+"callTestCase(findTestCase(""Pages/page_filter/scroll_list""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:35:52,2023-02-22 18:35:57,4.525s,PASSED
+"callTestCase(findTestCase(""Pages/page_filter/verify_category_hoby""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:35:57,2023-02-22 18:35:59,2.622s,PASSED
+"callTestCase(findTestCase(""Pages/page_filter/click_category_kendaraan""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:35:59,2023-02-22 18:36:00,1.014s,PASSED
+"callTestCase(findTestCase(""Pages/page_filter/verify_category_kendaraan""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:36:00,2023-02-22 18:36:07,7.209s,PASSED

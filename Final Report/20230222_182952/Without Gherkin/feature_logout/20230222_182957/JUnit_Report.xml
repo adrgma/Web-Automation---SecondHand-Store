@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="feature_logout" time="24.897" tests="1" failures="0" errors="0">
+   <testsuite name="feature_logout" tests="1" failures="0" errors="0" time="24.897" skipped="0" timestamp="2023-02-22 18:34:10" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Without Gherkin/feature_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_logout\\20230222_182957"/>
+         <property name="logFiles" value="C:\\Users\\ADITIA ARGA PRATAMA\\Katalon Studio\\web-automation-testing-kelompok-1.git\\Reports\\20230222_182952\\Without Gherkin\\feature_logout\\20230222_182957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.127.126"/>
+         <property name="sessionId" value="94177ab9913f0d8329d9a74160d3cccb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account" time="19.378" classname="Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account" status="PASSED">
+         <system-out><![CDATA[2023-02-22 18:34:15 - [TEST_CASE][PASSED] - Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account: Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account
+
+2023-02-22 18:34:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/navigate_to_login_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/navigate_to_login_page' successfully
+
+2023-02-22 18:34:16 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/navigate_to_login_page: Test Cases/Pages/page_login/navigate_to_login_page
+
+2023-02-22 18:34:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-22 18:34:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-22 18:34:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-22 18:34:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-22 18:34:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-22 18:34:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-22 18:34:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-22 18:34:18 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand-store.herokuapp.com/"): Navigate to 'https://secondhand-store.herokuapp.com/' successfully
+
+2023-02-22 18:34:21 - [MESSAGE][PASSED] - Navigate to 'https://secondhand-store.herokuapp.com/' successfully
+
+2023-02-22 18:34:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("page_home/btn_masuk"), 3): Object 'Object Repository/page_home/btn_masuk' is present
+
+2023-02-22 18:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_masuk' is present
+
+2023-02-22 18:34:24 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_masuk")): Object: 'Object Repository/page_home/btn_masuk' is clicked on
+
+2023-02-22 18:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_masuk' is clicked on
+
+2023-02-22 18:34:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/navigate_to_login_page' successfully
+
+2023-02-22 18:34:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/verify_content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/verify_content' successfully
+
+2023-02-22 18:34:25 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/verify_content: Test Cases/Pages/page_login/verify_content
+
+2023-02-22 18:34:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/img_rectangle left")): Object 'Object Repository/page_login/img_rectangle left' is visible
+
+2023-02-22 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/img_rectangle left' is visible
+
+2023-02-22 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_secondHand")): Object 'Object Repository/page_login/text_secondHand' is visible
+
+2023-02-22 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_secondHand' is visible
+
+2023-02-22 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_masuk")): Object 'Object Repository/page_login/text_masuk' is visible
+
+2023-02-22 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_masuk' is visible
+
+2023-02-22 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_email")): Object 'Object Repository/page_login/text_email' is visible
+
+2023-02-22 18:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_email' is visible
+
+2023-02-22 18:34:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/textfield_email")): Object 'Object Repository/page_login/textfield_email' is visible
+
+2023-02-22 18:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/textfield_email' is visible
+
+2023-02-22 18:34:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_password")): Object 'Object Repository/page_login/text_password' is visible
+
+2023-02-22 18:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_password' is visible
+
+2023-02-22 18:34:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/textfield_password")): Object 'Object Repository/page_login/textfield_password' is visible
+
+2023-02-22 18:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/textfield_password' is visible
+
+2023-02-22 18:34:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/btn_masuk")): Object 'Object Repository/page_login/btn_masuk' is visible
+
+2023-02-22 18:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/btn_masuk' is visible
+
+2023-02-22 18:34:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/text_belum punya akun")): Object 'Object Repository/page_login/text_belum punya akun' is visible
+
+2023-02-22 18:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/text_belum punya akun' is visible
+
+2023-02-22 18:34:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/linktext_daftar di sini")): Object 'Object Repository/page_login/linktext_daftar di sini' is visible
+
+2023-02-22 18:34:29 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/linktext_daftar di sini' is visible
+
+2023-02-22 18:34:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/verify_content' successfully
+
+2023-02-22 18:34:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/input_email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/input_email' successfully
+
+2023-02-22 18:34:29 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/input_email: Test Cases/Pages/page_login/input_email
+
+2023-02-22 18:34:29 - [TEST_STEP][PASSED] - clearText(findTestObject("page_login/textfield_email")): Text of object 'Object Repository/page_login/textfield_email' is cleared
+
+2023-02-22 18:34:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/page_login/textfield_email' is cleared
+
+2023-02-22 18:34:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("page_login/textfield_email"), email): Keys 'nathaliemeimei@gmail.com' sent to object: 'Object Repository/page_login/textfield_email'
+
+2023-02-22 18:34:30 - [MESSAGE][PASSED] - Keys 'nathaliemeimei@gmail.com' sent to object: 'Object Repository/page_login/textfield_email'
+
+2023-02-22 18:34:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/input_email' successfully
+
+2023-02-22 18:34:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/input_password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/input_password' successfully
+
+2023-02-22 18:34:30 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/input_password: Test Cases/Pages/page_login/input_password
+
+2023-02-22 18:34:30 - [TEST_STEP][PASSED] - clearText(findTestObject("page_login/textfield_password")): Text of object 'Object Repository/page_login/textfield_password' is cleared
+
+2023-02-22 18:34:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/page_login/textfield_password' is cleared
+
+2023-02-22 18:34:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("page_login/textfield_password"), password): Keys 'aduuuh12' sent to object: 'Object Repository/page_login/textfield_password'
+
+2023-02-22 18:34:31 - [MESSAGE][PASSED] - Keys 'aduuuh12' sent to object: 'Object Repository/page_login/textfield_password'
+
+2023-02-22 18:34:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/input_password' successfully
+
+2023-02-22 18:34:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_login/click_masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_login/click_masuk' successfully
+
+2023-02-22 18:34:31 - [TEST_CASE][PASSED] - Test Cases/Pages/page_login/click_masuk: Test Cases/Pages/page_login/click_masuk
+
+2023-02-22 18:34:31 - [TEST_STEP][PASSED] - click(findTestObject("page_login/btn_masuk")): Object: 'Object Repository/page_login/btn_masuk' is clicked on
+
+2023-02-22 18:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/btn_masuk' is clicked on
+
+2023-02-22 18:34:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_login/click_masuk' successfully
+
+2023-02-22 18:34:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/click_button_profile"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/click_button_profile' successfully
+
+2023-02-22 18:34:31 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/click_button_profile: Test Cases/Pages/page_home/click_button_profile
+
+2023-02-22 18:34:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_profile"), 3): Object 'Object Repository/page_home/btn_profile' is present
+
+2023-02-22 18:34:33 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_profile' is present
+
+2023-02-22 18:34:33 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_profile")): Object: 'Object Repository/page_home/btn_profile' is clicked on
+
+2023-02-22 18:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_profile' is clicked on
+
+2023-02-22 18:34:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/click_button_profile' successfully
+
+2023-02-22 18:34:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/page_home/click_button_log_out"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/page_home/click_button_log_out' successfully
+
+2023-02-22 18:34:34 - [TEST_CASE][PASSED] - Test Cases/Pages/page_home/click_button_log_out: Test Cases/Pages/page_home/click_button_log_out
+
+2023-02-22 18:34:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_home/btn_log out"), 3): Object 'Object Repository/page_home/btn_log out' is present
+
+2023-02-22 18:34:34 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/btn_log out' is present
+
+2023-02-22 18:34:34 - [TEST_STEP][PASSED] - click(findTestObject("page_home/btn_log out")): Object: 'Object Repository/page_home/btn_log out' is clicked on
+
+2023-02-22 18:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/btn_log out' is clicked on
+
+2023-02-22 18:34:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/page_home/click_button_log_out' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-22 18:34:10 - [TEST_SUITE][PASSED] - feature_logout: Test Cases/Step Definition/feature_logout/LGO001 - User wants to log out from his account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_login,Chrome 110.0.0.0,,,2023-02-22 18:32:17,2023-02-22 18:33:55,1m - 38.183s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_login/LGI001 - User want to login using correct credential,Chrome 110.0.0.0,,,2023-02-22 18:32:22,2023-02-22 18:32:42,19.340s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:23,2023-02-22 18:32:31,8.337s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:31,2023-02-22 18:32:35,3.664s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:35,2023-02-22 18:32:36,1.103s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:36,2023-02-22 18:32:37,1.027s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:37,2023-02-22 18:32:37,0.724s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [""expected"":""Daftar Jual""], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:37,2023-02-22 18:32:42,4.046s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_login/LGI002 - User want to login by not filling all field,Chrome 110.0.0.0,,,2023-02-22 18:32:42,2023-02-22 18:32:58,16.213s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:42,2023-02-22 18:32:50,8.308s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:50,2023-02-22 18:32:54,3.489s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:54,2023-02-22 18:32:54,0.474s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:54,2023-02-22 18:32:58,3.714s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_login/LGI003 - User want to login using incorrect email credential,Chrome 110.0.0.0,,,2023-02-22 18:32:58,2023-02-22 18:33:18,20.651s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:32:58,2023-02-22 18:33:09,10.675s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:09,2023-02-22 18:33:12,3.454s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:12,2023-02-22 18:33:13,0.839s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:13,2023-02-22 18:33:14,0.809s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:14,2023-02-22 18:33:14,0.462s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:14,2023-02-22 18:33:18,4.178s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_login/LGI004 - User want to login using incorrect password credential,Chrome 110.0.0.0,,,2023-02-22 18:33:18,2023-02-22 18:33:37,18.513s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:19,2023-02-22 18:33:27,8.388s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:27,2023-02-22 18:33:31,3.511s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:31,2023-02-22 18:33:31,0.815s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:31,2023-02-22 18:33:32,0.809s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:32,2023-02-22 18:33:33,0.491s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:33,2023-02-22 18:33:37,4.237s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_login/LGI005 - User input incorrect email format on email textfield,Chrome 110.0.0.0,,,2023-02-22 18:33:37,2023-02-22 18:33:55,17.825s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:37,2023-02-22 18:33:46,8.446s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:46,2023-02-22 18:33:49,3.451s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:49,2023-02-22 18:33:50,0.819s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:50,2023-02-22 18:33:51,0.837s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:51,2023-02-22 18:33:51,0.466s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:33:51,2023-02-22 18:33:55,3.578s,PASSED

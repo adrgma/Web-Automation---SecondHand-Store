@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+feature_delete_product,Chrome 110.0.0.0,,,2023-02-22 18:41:14,2023-02-22 18:42:06,51.715s,PASSED
+,,,,,,,
+Test Cases/Step Definition/feature_delete_product/DLP001 - Delete product,Chrome 110.0.0.0,,,2023-02-22 18:41:20,2023-02-22 18:42:06,46.102s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_login_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:20,2023-02-22 18:41:23,2.409s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/verify_content""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:23,2023-02-22 18:41:27,3.672s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_email""), [""email"":email], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:27,2023-02-22 18:41:28,1.087s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/input_password""), [""password"":password], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:28,2023-02-22 18:41:29,0.993s,PASSED
+"callTestCase(findTestCase(""Pages/page_login/click_masuk""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:29,2023-02-22 18:41:29,0.623s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:29,2023-02-22 18:41:33,4.051s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/navigate_to_delete_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:33,2023-02-22 18:41:36,2.627s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_hapus_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:36,2023-02-22 18:41:38,2.120s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:38,2023-02-22 18:41:42,3.784s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/navigate_to_delete_product_homepage""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:42,2023-02-22 18:41:45,2.813s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_hapus_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:45,2023-02-22 18:41:46,1.756s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:46,2023-02-22 18:41:50,3.773s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/navigate_to_edit_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:50,2023-02-22 18:41:53,2.469s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_hapus_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:53,2023-02-22 18:41:55,1.888s,PASSED
+"callTestCase(findTestCase(""Pages/page_home/navigate_to_daftarjual_page""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:55,2023-02-22 18:41:58,3.781s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/navigate_to_edit_product""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:41:58,2023-02-22 18:42:01,2.446s,PASSED
+"callTestCase(findTestCase(""Pages/page_productpage/click_hapus_button""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:01,2023-02-22 18:42:03,1.772s,PASSED
+"callTestCase(findTestCase(""Pages/page_daftarjual/verify_delete_product_success""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-22 18:42:03,2023-02-22 18:42:06,3.640s,PASSED

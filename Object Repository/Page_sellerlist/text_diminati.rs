@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_diminati</name>
+   <tag></tag>
+   <elementGuidId>f2c13611-94b2-4e6f-88ed-274da2fbf3c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[contains(.,'Diminati')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>&quot;link&quot; </value>
+      <webElementGuid>2f13945b-049f-4067-92c4-8a3b2027c99d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b0c702e6-3b71-4a0e-aa1a-45e356475887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>button:nth-of-type(2) > [type='button']</value>
+      <webElementGuid>164111b4-7eb9-48cc-a061-f9d307cc0ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//i[contains(.,'Diminati')]</value>
+      <webElementGuid>6da34a51-b410-4e02-a62f-4c971dee32af</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
